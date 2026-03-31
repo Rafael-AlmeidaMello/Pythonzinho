@@ -36,19 +36,34 @@
 #print(f"Seu nome é {nome}, você tem {idade} anos e mora em {cidade}")
 
 #8° exercício
-numero1 = float(input("digite o primeiro número: "))
-numero2 = float(input("digite o segundo número: "))
+#numero1 = float(input("digite o primeiro número: "))
+#numero2 = float(input("digite o segundo número: "))
+#operacao = input("digite a operação( +,  -,  *,  / ): ")
 
-operacao = input("digite a operação( +,  -,  *,  / ): ")
+#match operacao:
+#   case "+":
+#    resposta = numero1 + numero2
+#   case "-":
+#    resposta = numero1 - numero2
+#   case "*":
+#    resposta = numero1 * numero2
+#   case "/":
+#    if numero2 == 0:
+#         resposta = "não é possivel dividir por zero"
+#      else:
+#           resposta = numero1 / numero2      
+#   print(f"o resultado é: {resposta}")
 
-match operacao:
-    case "+":
-        resposta = numero1 + numero2
-    case "-":
-        resposta = numero1 - numero2
-    case "*":
-        resposta = numero1 * numero2
-    case "/":
-        resposta = numero1 / numero2
-        
-print(f"o resultado é: {resposta}")
+#9° exercício
+#valor_hora = float(input("Quanto você ganha por hora? "))
+#horas_trabalhadas = float(input("Quantas horas você trabalhou?"))
+#salario = valor_hora * horas_trabalhadas
+#desconto_inss = salario * 0.11
+#salario_liquido = salario - desconto_inss
+#print(f"Seu salário final é R${salario_liquido}")
+
+#10° exercício
+real = float(input("Quanto você gostaria de converter para dólar?"))
+cotacao = 5.27
+dolares = real / cotacao
+print((f"O valor em reais convertidos em dólares é igual a ${dolares:.2f}"))
