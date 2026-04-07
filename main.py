@@ -69,9 +69,44 @@
 #print((f"O valor em reais convertidos em dólares é igual a ${dolares:.2f}"))
 
 #11° exercício
-numero = float(input("Digite um número: "))
+#numero = float(input("Digite um número: "))
+#if numero >= 0:
+#        print(f"O número {numero} é positivo")
+#else:
+#        print(f"O número {numero} é negativo")
 
-if numero >= 0:
-        print(f"O número {numero} é positivo")
+#12° exercício
+#numero = float(input("Digite um número: "))
+#if numero % 2 == 0:
+#        print(f"O número {numero} é par")
+#else:
+#        print(f"O número {numero} é ímpar")
+
+#13° exercício
+#nota1 = float(input("Digite sua primeira nota: "))
+#nota2 = float(input("Digite a segunda nota: "))
+#media = (nota1 + nota2) / 2
+#if media >= 7:
+#    print(f"O aluno está aprovado, nota final: {media}")
+#else:
+#    print(f"O aluno está reprovado, {media}")
+
+#14° exercício
+#usuario = input("Crie um nome para seu usuário: ")
+#password = input("Crie uma senha para seu usuário: ")
+#validacao_usuario = input("Digite o nome do seu usuário criado: ")
+#validacao_senha = input("Digite a senha do seu usuário: ")
+#if usuario == validacao_usuario and password == validacao_senha:
+#    print(f"Login efetuado! Seja bem vindo {usuario}")
+#else:
+#    print(f"Usuário ou senha incorretos")
+
+#15° exercício
+nome = input("Digite seu nome: ")
+idade = float(input("Digite sua idade: "))
+salario = float(input("Informe seu salário: "))
+
+if idade >= 18 and salario >= 2000:
+    print("Parabéns! Você já pode financiar um carro.")
 else:
-        print(f"O número {numero} é negativo")
+    print("Você ainda não tem condições pra financiar um carro")
