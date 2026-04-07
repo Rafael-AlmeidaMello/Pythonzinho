@@ -63,7 +63,15 @@
 #print(f"Seu salário final é R${salario_liquido}")
 
 #10° exercício
-real = float(input("Quanto você gostaria de converter para dólar?"))
-cotacao = 5.27
-dolares = real / cotacao
-print((f"O valor em reais convertidos em dólares é igual a ${dolares:.2f}"))
+#real = float(input("Quanto você gostaria de converter para dólar?"))
+#cotacao = 5.27
+#dolares = real / cotacao
+#print((f"O valor em reais convertidos em dólares é igual a ${dolares:.2f}"))
+
+#11° exercício
+numero = float(input("Digite um número: "))
+
+if numero >= 0:
+        print(f"O número {numero} é positivo")
+else:
+        print(f"O número {numero} é negativo")
